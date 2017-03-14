@@ -1,0 +1,360 @@
+/*==============================
+=            Global            =
+==============================*/
+
+body {
+	background: #fff;
+	color: #666;
+	font: 19px "Helvetica", "Arial", sans-serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+ul {
+	margin: 0 0 1em 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	color: #f00;
+	text-decoration: none;
+}
+
+a img { border: none; }
+
+a:hover {
+	color: #c00;
+	text-decoration: underline;
+}
+
+hr {
+	height: 2px;
+	border: none;
+	background: #ddd;
+	margin: 30px 0;
+}
+
+/*==========  Headers  ==========*/
+.main-content h2, .main-content h3,
+.sidebar h2, .sidebar h3 {
+	color: #bd3f20;
+	margin: 0 0 5px 0;
+}
+
+/*-----  End of Global  ------*/
+
+
+/*==================================
+=            Containers            =
+==================================*/
+
+.main-container {
+	width: 960px;
+	margin: 30px auto;
+	position: relative;
+}
+/*-----  End of Containers  ------*/
+
+
+/*==============================
+=            Header            =
+==============================*/
+
+.header {
+	width: 100%;
+	min-width: 960px;
+	background: url("../images/donut-bg.jpg") no-repeat top center;
+}
+
+.header-content {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 218px;
+}
+
+/*==========  Logo  ==========*/
+.logo {
+	width: 384px;
+	height: 378px;
+	margin: 0;
+	padding: 0;
+}
+
+/*==========  Tagline  ==========*/
+.tagline {
+	text-align: center;
+	margin: 55px 0 0 0;
+}
+
+/*-----  End of Header  ------*/
+
+/*====================================
+=            Main Content            =
+====================================*/
+
+.intro {
+	text-align: center;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	line-height: 0;
+	padding: 40px 0;
+	margin: 0;
+}
+
+.main-content {
+	width: 620px;
+	float: left;
+	margin-top: 40px;
+	border-right: 2px solid #ddd;
+}
+
+.main-content hr {
+	margin-right: 40px;
+}
+
+.section {
+	margin: 0 0 30px 0;
+}
+
+.section.last { margin: 0; }
+.section.last p { margin: 0; }
+
+.main-content p {
+	width: 470px;
+	line-height: 25px;
+}
+
+/*==========  Lists of Donuts  ==========*/
+.donut-lists {
+	margin: 0 0 -1em 0;
+}
+
+.donut-lists > h2 {
+	margin: 0 0 1em 0;
+}
+
+.column-1, .column-2 { float: left; }
+
+.column-1 { margin-right: 90px; }
+
+.donut-list {
+	margin-bottom: 1.5em;
+}
+
+.donut-list h3 span {
+	font-size: 0.65em;
+	vertical-align: middle;
+	color: #666;
+	font-weight: normal;
+	font-style: oblique;
+	position: relative;
+	top: -5px;
+}
+
+.donut-list ul {
+	width: 210px;
+}
+
+.donut-list li, .available-at li {
+	margin: 0 0 7px 20px;
+	text-indent: -20px;
+}
+
+/*-----  End of Main Content  ------*/
+
+
+/*================================
+=            Side Bar            =
+================================*/
+
+.sidebar {
+	float: left;
+	position: relative;
+	font-size: 18px;
+	line-height: 27px;
+	margin: 40px 0 0 25px;
+	width: 308px;
+}
+
+.sidebar h2 {
+	margin: 0 0 1em 0;
+}
+
+.sidebar h3 {
+	font-size: 20px;
+	line-height: 1.4em;
+	margin-bottom: 0;
+}
+
+/*==========  Weekly awards  ==========*/
+.awards {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.weekly-star {
+	width: 63px;
+	height: 83px;
+	display: inline-block;
+	margin-right: -10px;
+	margin-top: 10px;
+	background: url("../images/weekly-star.png");
+	color: #000;
+	padding-left: 36px;
+	letter-spacing: -1px;
+	line-height: 80px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 0 2px 2px #ffc;
+}
+
+.awards p {
+	margin: 5px 0 0 0;
+}
+
+/*==========  Specials  ==========*/
+.specials {
+	background: url("../images/specials-bg.png") no-repeat;
+	width: 308px;
+	height: 162px;
+	text-align: center;
+}
+
+.specials h2 {
+	margin: 0;
+	padding-top: 35px;
+	line-height: 0;
+}
+
+.specials p {
+	margin: 10px auto;
+	padding: 0 3px 0 0;
+	width: 200px;
+
+	color: #000;
+	font: 20px "Georgia", serif;
+}
+
+.orders h2 { margin-bottom: 0px; }
+
+/*==========  What People Say  ==========*/
+blockquote {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+
+blockquote p {
+	margin: 0.5em 0 0 0;
+	padding-left: 30px;
+}
+
+blockquote p.quote {
+	font-style: oblique;
+	position: relative;
+}
+
+blockquote p.quote:before {
+	content: '“';
+	position: absolute;
+	top: 7px;
+	left: -3px;
+
+	font-size: 3em;
+	color: #ccc;
+}
+
+blockquote p.quotee {
+	font-style: normal;
+	font-weight: bold;
+}
+
+blockquote p.quotee span { font-weight: normal; }
+
+/*==========  Coupon  ==========*/
+.coupon {
+	margin-top: 20px;
+}
+
+/*==========  Social Links  ==========*/
+.social-links {
+	margin-top: -10px;
+}
+
+.social-links a {
+	display: block;
+	padding: 10px;
+	position: relative;
+	left: -10px;
+	text-decoration: none;
+	width: 150px;
+}
+
+.social-links img {
+	margin-right: 8px;
+	border-radius: 3px;
+	float: left;
+}
+
+.social-links span {
+	display: block;
+	float: left;
+	width: 100px;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 3px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.social-links a:hover img {
+	box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.3);
+}
+
+.facebook span { color: #3b5998; }
+.yelp span { color: #c41200; }
+.facebook:hover span, .yelp:hover span { color: #000; }
+
+/*-----  End of Side Bar  ------*/
+
+
+/*==============================
+=            Footer            =
+==============================*/
+
+.footer {
+	margin-top: 40px;
+	padding: 0;
+	border-top: 2px solid #ddd;
+}
+
+.footer a { color: #666; }
+
+.copyright {
+	font-size: 12px;
+	text-align: center;
+	margin: 50px 0 60px 0;
+}
+
+/*-----  End of Footer  ------*/
+
+
+/*=============================
+=            Misc.            =
+=============================*/
+
+/*==========  Clearfix  ==========*/
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both; }
+.group { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+
+/*-----  End of Misc.  ------*/
