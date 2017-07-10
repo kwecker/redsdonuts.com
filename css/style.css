@@ -5,7 +5,7 @@
 body {
 	background: #fff;
 	color: #666;
-	font: 19px "Helvetica", "Arial", sans-serif;
+	font: 19px "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
@@ -158,13 +158,18 @@ hr {
 	top: -5px;
 }
 
-.donut-list ul {
+.donut-list ul,
+.donut-list .pricing {
 	width: 210px;
 }
 
 .donut-list li, .available-at li {
 	margin: 0 0 7px 20px;
 	text-indent: -20px;
+}
+
+.pricing {
+	font-weight: bold;
 }
 
 /*-----  End of Main Content  ------*/
@@ -227,6 +232,11 @@ hr {
 	width: 308px;
 	height: 162px;
 	text-align: center;
+}
+
+.small {
+	font-size: 0.8em;
+	text-align: right;
 }
 
 .specials h2 {
